@@ -15,6 +15,8 @@ model = pickle.load(open('dpp.pkl', 'rb'))
 
 
 app=Flask(__name__)
+app.secret_key="diam1234"
+
 
 @app.route('/input', methods=['GET','POST'])
 def input():
