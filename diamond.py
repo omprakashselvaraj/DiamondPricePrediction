@@ -19,23 +19,22 @@ app=Flask(__name__)
 app.secret_key="diam1234"
 
 
-@app.route('/input', methods=['GET','POST'])
+@app.route('/input',methods=['GET','POST'])
 def input():
-    if request.method=="POST":
-        details=request.form
-        carat= float(details['carat'])
-        cut= int(details['cut'])
-        color = int(details['color'])
-        clarity = int(details['clarity'])
-        depth=float(details['depth'])
-        table=float(details['table'])
+    details=request.form
+    carat= float(details['carat'])
+    cut= int(details['cut'])
+    color = int(details['color'])
+    clarity = int(details['clarity'])
+    depth=float(details['depth'])
+    table=float(details['table'])
 
-        prediction=model.predict([[carat ,cut, color, clarity, depth, table ]])
-        p=val*prediction[0]
-        p=round(p,3)
-        msg="Diamond price is Rs."+str(p)
-
-        return render_template('output.html', msg=msg)
+    prediction=model.predict([[carat ,cut, color, clarity, depth, table ]])
+    p=val*prediction[0]
+    p=round(p,3)
+    msg="Diamond price is Rs."+str(p)
+    print(msg)
+    return render_template('output.html', msg=msg)
 
 @app.route('/')
 def submit():
