@@ -6,5 +6,6 @@ Run this App https://diamond-priceprediction.herokuapp.com/
 
 # CREATED BY
 OMPRAKASH S https://www.linkedin.com/in/omprakashs2410/
+
 JOTHI BATHRAA L https://www.linkedin.com/in/jothi-bathra/
 
