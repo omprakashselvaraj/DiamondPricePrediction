@@ -25,8 +25,8 @@ Thanks to KAGGLE.. you can find dataset here.. [DATASET](https://www.kaggle.com/
 ![IMAGE](https://www.petragems.com/product_images/uploaded_images/gia-diagramcut.jpg)
 
 # DATA CATEGORY'S
--Qualitative Features (Categorical) : Cut, Color, Clarity.
--Quantitative Features (Numerical) : Carat, Depth , Table , Price.
+- Qualitative Features (Categorical) : Cut, Color, Clarity.
+- Quantitative Features (Numerical) : Carat, Depth , Table , Price.
 
 
 # Installation
