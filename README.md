@@ -14,3 +14,6 @@ Thanks to KAGGLE.. you can find dataset here.. [DATASET](https://www.kaggle.com/
 
 # Installation
 one can install required packages for this application using
+```
+pip install -r requirements
+```
