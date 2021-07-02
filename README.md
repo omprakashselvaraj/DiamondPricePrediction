@@ -46,7 +46,7 @@ python diamond.py
 
 # Important Tools used
 - python 3.8
-- anaconda - jupyter notebooh
+- anaconda - jupyter notebook
 - backend api: flask
 - conda environment
 - frontend : HTML,CSS & JAVASCRIPT
