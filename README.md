@@ -17,3 +17,6 @@ one can install required packages for this application using
 ```
 pip install -r requirements
 ```
+
+# Separate environment
+Alwas create a separate __conda environment/any environment__ so that you can avoid version errors between packages
