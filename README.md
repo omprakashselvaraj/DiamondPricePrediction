@@ -21,6 +21,9 @@ Thanks to KAGGLE.. you can find dataset here.. [DATASET](https://www.kaggle.com/
 - Table : The Width of the Diamond's Table expressed as a Percentage of its Average Diameter.
 - Price : the Price of the Diamond.
 
+# Image
+https://www.petragems.com/product_images/uploaded_images/gia-diagramcut.jpg
+
 # DATA CATEGORY'S
 Qualitative Features (Categorical) : Cut, Color, Clarity.
 Quantitative Features (Numerical) : Carat, Depth , Table , Price.
