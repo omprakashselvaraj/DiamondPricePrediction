@@ -1,1 +1,1 @@
-web: gunicorn diamond:app
+web: gunicorn diamond:ap
